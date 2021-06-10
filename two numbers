@@ -1,0 +1,14 @@
+n=int(input("Enter total number of turns"))
+a=int(input("Enter Alice's Number: "))
+b=int(input(("Enter Bob's Numbe: ")))
+for i in range(0,n):
+    if i%2==0:
+        a=a*2
+    elif i%2==1:
+        b=b*2
+if a>b:
+    d=a/b
+    print(int(d))
+else:
+    d=b/a
+    print(int(d))
